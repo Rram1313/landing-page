@@ -24,3 +24,4 @@ function toggleMusic() {
     musicControlBtn.classList.add("paused");
   }
 }
+

@@ -599,7 +599,8 @@ progress {
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  width: 400px;
+  height: 400px;
 }
 
 .img-thumbnail {
@@ -3633,7 +3634,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: var(--bs-nav-link-hover-color);
+  color: var(--bs-green);
 }
 .nav-link.disabled {
   color: var(--bs-nav-link-disabled-color);
