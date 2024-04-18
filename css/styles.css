@@ -10,6 +10,10 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ @font-face {
+  font-family: 'Life-is-goofy';
+  src: url('assets/Life-is-goofy.ttf') format('truetype');
+}
 :root {
   --bs-blue: #1e30f3;
   --bs-indigo: #6610f2;
@@ -54,7 +58,7 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "Plus Jakarta Sans";
+  --bs-font-sans-serif: "Life-is-goofy";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -93,7 +97,7 @@
 
 body {
   margin: 0;
-  font-family: var(--bs-body-font-family);
+  font-family:cursive;
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -11584,7 +11588,7 @@ html {
   height: 75vw;
   width: 75vw;
   border-radius: 5vw;
-  margin-top: 5vw;
+  margin-top: 1vw;
   max-height: 40rem;
   max-width: 40rem;
 }
@@ -11735,4 +11739,25 @@ html {
 }
 .copy{
   color: whitesmoke;
+}
+#scroll-to-top {
+  position: fixed; 
+  bottom: 15px; 
+  right: 20px; 
+  border: none; 
+  padding: 0px 10px; 
+  cursor: pointer; 
+  opacity: 0;
+  transition: opacity 1s ease; 
+  border-radius: 20%;
+  width: 50px;
+  height: 50px;
+}
+.scrolled #scroll-to-top {
+  opacity: 1; 
+}
+.arriba{
+  filter: invert(1);
+  width: 25px;
+  height: 30px;
 }
