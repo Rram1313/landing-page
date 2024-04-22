@@ -32,13 +32,3 @@ window.addEventListener('scroll', function() {
     document.body.classList.remove('scrolled');
   }
 });
-
-function playAudio() {
-  setTimeout(function () {
-    document.getElementById("music").play();
-  }, 5000);
-}
-window.onload = function () {
-  let myAudio = document.getElementById("myAudio");
-  let playPauseButton = document.getElementById("playPauseButton");
-}
