@@ -41,3 +41,4 @@ function playAudio() {
 window.onload = function () {
   let myAudio = document.getElementById("myAudio");
   let playPauseButton = document.getElementById("playPauseButton");
+}
