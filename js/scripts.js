@@ -32,3 +32,9 @@ window.addEventListener('scroll', function() {
     document.body.classList.remove('scrolled');
   }
 });
+
+function playAudio() {
+  setTimeout(function () {
+    document.getElementById("myAudio").play();
+  }, 5000);
+}
