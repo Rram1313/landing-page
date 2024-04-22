@@ -38,3 +38,6 @@ function playAudio() {
     document.getElementById("music").play();
   }, 5000);
 }
+window.onload = function () {
+  let myAudio = document.getElementById("myAudio");
+  let playPauseButton = document.getElementById("playPauseButton");
