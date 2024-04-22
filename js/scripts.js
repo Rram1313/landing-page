@@ -35,6 +35,6 @@ window.addEventListener('scroll', function() {
 
 function playAudio() {
   setTimeout(function () {
-    document.getElementById("myAudio").play();
+    document.getElementById("music").play();
   }, 5000);
 }
