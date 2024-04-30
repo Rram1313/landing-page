@@ -5,10 +5,18 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+function playAudio() {
+  setTimeout(function () {
+    document.getElementById("music").play();
+  }, 5000);
+}
+window.onload = function () {
+  let music = document.getElementById("music");
+  let musicControlBtn = document.getElementById("musicControlBtn");
+}
+
 function toggleMusic() {
-  var music = document.getElementById("music");
   var musicIcon = document.getElementById("musicIcon");
-  var musicControlBtn = document.getElementById("musicControlBtn");
 
   if (music.paused) {
     music.play();
