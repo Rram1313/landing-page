@@ -1,0 +1,244 @@
+{
+  "title": "Quiz Arquitectura",
+  "id_test": "01",
+  "description": "Prueba a ver cuánto sabes sobre la arquitectura de Aranjuez con este pequeño quiz.",
+  "author": "Ruth Rama",
+  "img_feature": {
+    "url": "assets/palacio.jpg",
+    "alt": "Palacio de Aranjuez"
+  },
+  "questions": [
+    [
+      {
+        "id": 1,
+        "question": "¿Qué estilo arquitectónico tiene el Palacio de Medinaceli?",
+        "answers": {
+          "a": "Neoclásico",
+          "b": "Barroco",
+          "c": "Clásico",
+          "d": "Rococo"
+        },
+        "results": {
+          "a": true,
+          "b": false,
+          "c": false,
+          "d": false
+        },
+        "img_question": {
+          "url": "assets/Palacio de Medinaceli en Aranjuez.jpg",
+          "alt": "Palacio de Medinaceli",
+          "desc": "Palacio de Medinaceli de Aranjuez"
+        },
+        "hint": "El movimiento comenzó a mediados del siglo XVIII.",
+        "curiosity": "Este edificio ocupa toda una manzana."
+      },
+			{
+        "id": 2,
+        "question": "¿Qué edificio importante tiene enfrente el mercado de abastos?",
+        "answers": {
+          "a": "Hospital de San Carlos",
+          "b": "Casa de oficios",
+          "c": "El ayuntamiento",
+          "d": "Palacio de Godoy"
+        },
+        "results": {
+          "a": false,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "img_question": {
+          "url": "assets/Mercado de abastos.jpg",
+          "alt": "Mercado de abastos",
+          "desc": "Mercado de abastos de Aranjuez"
+        },
+        "hint": "Es de color rosa.",
+        "curiosity": "Antes del siglo XIX, existía un mercado al aire libre de cajones ubicado en la misma plaza."
+      },
+			{
+        "id": 3,
+        "question": "¿En que se ha convertido una de las corralas típicas ubicada en la carretera de Andalucía?",
+        "answers": {
+          "a": "Tienda de ropa",
+          "b": "Mercado",
+          "c": "Museo",
+          "d": "Hostal"
+        },
+        "results": {
+          "a": false,
+          "b": false,
+          "c": false,
+          "d": true
+        },
+        "img_question": {
+          "url": "assets/Corrala tipica.jpg",
+          "alt": "Corrala tipica",
+          "desc": "Corrala tipica de Aranjuez"
+        },
+        "hint": "Se puede desayunar aqui.",
+        "curiosity": "Arquitectónicamente una corrala es una construcción que no siempre mantiene las mismas formas, pero lo que nunca varia son sus dos elementos centrales:el patio y el corredor."
+      },
+			{
+        "id": 4,
+        "question": "¿Qué jardín tiene enfrente la casa de infantes?",
+        "answers": {
+          "a": "Jardín de la isla",
+          "b": "Jardín de Isabel II",
+          "c": "Jardín del Príncipe",
+          "d": "Jardín del Parterre"
+        },
+        "results": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": false
+        },
+        "img_question": {
+          "url": "assets/Casa de infantes.jpg",
+          "alt": "Casa de infantes",
+          "desc": "Casa de infantes de Aranjuez"
+        },
+        "hint": "Hay unicamente una estatua en el jardín.",
+        "curiosity": "Actualmente en el interior de este edificio se encuentra situada la oficina de turismo."
+      },
+			{
+        "id": 5,
+        "question": "¿Qué estilo arquitectónico predomina en la Iglesia y Real Convento de San Pascual?",
+        "answers": {
+          "a": "Barroco",
+          "b": "Neoclásico",
+          "c": "Mudéjar",
+          "d": "Herreriano"
+        },
+        "results": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": false
+        },
+        "img_question": {
+          "url": "assets/Iglesia y Real Convento de San Pascual.jpg",
+          "alt": "Iglesia y Real Convento de San Pascual",
+          "desc": "Iglesia y Real Convento de San Pascual de Aranjuez"
+        },
+        "hint": "El movimiento comenzó a mediados del siglo XVIII.",
+        "curiosity": "Su altar mayor está decorado con el cuadro de Anton Raphael Mengs."
+      },
+			{
+        "id": 6,
+        "question": "¿Quién fue el arquitecto responsable de diseñar el Teatro Carlos III de Aranjuez?",
+        "answers": {
+          "a": "Juan de Villanueva",
+          "b": "Ventura Rodríguez",
+          "c": "Francisco Sabatini",
+          "d": "Manuel Martín Rodríguez"
+        },
+        "results": {
+          "a": false,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "img_question": {
+          "url": "assets/Teatro Carlos III.jpg",
+          "alt": "Teatro Carlos III",
+          "desc": "Teatro Carlos III de Aranjuez"
+        },
+        "hint": "Fue un arquitecto italiano e ingeniero militar.",
+        "curiosity": "Sus butacas actualmente estan tapizadas en terciopelo azul."
+      },
+			{
+        "id": 7,
+        "question": "¿Qué característica distintiva tiene la fachada de la casa de Rusiñol en Aranjuez?",
+        "answers": {
+          "a": "Murales de cerámica",
+          "b": "Escudos nobiliarios",
+          "c": "Tejado de pizarra",
+          "d": "Balcón de hierro forjado"
+        },
+        "results": {
+          "a": false,
+          "b": false,
+          "c": false,
+          "d": true
+        },
+        "img_question": {
+          "url": "assets/Casa de Rusiñol.jpg",
+          "alt": "Casa de Rusiñol",
+          "desc": "Casa de Rusiñol de Aranjuez"
+        },
+        "hint": "Es usado para vay¡llar zonas ajardinadas.",
+        "curiosity": "Actualmente es un restaurante."
+      },
+			{
+        "id": 8,
+        "question": "¿Qué elementos decorativos se encuentran en el interior de la Iglesia de San Antonio?",
+        "answers": {
+          "a": "Frescos renacentistas",
+          "b": "Esculturas góticas",
+          "c": "Retablos barrocos",
+          "d": "Mosaicos neoclásicos"
+        },
+        "results": {
+          "a": false,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "img_question": {
+          "url": "assets/Iglesia de San Antonio.jpg",
+          "alt": "Iglesia de San Antonio",
+          "desc": "Iglesia de San Antonio de Aranjuez"
+        },
+        "hint": "Estan situados detras de los altares.",
+        "curiosity": "Las galerías de arcos que unen a través de soportales esta capilla con la Casa de Infantes por un lado y por otro con las Casa de Caballeros y Oficios."
+      },
+			{
+        "id": 9,
+        "question": "¿Con qué materiales está construida la Casa de Infantes?",
+        "answers": {
+          "a": "Piedra y Ladrillo",
+          "b": "Hormigón y Acero",
+          "c": "Madera, Ladrillo y Acero",
+          "d": "Ladrillo, Acero y Hormigón"
+        },
+        "results": {
+          "a": true,
+          "b": false,
+          "c": false,
+          "d": false
+        },
+        "img_question": {
+          "url": "assets/Casa de infantes.jpg",
+          "alt": "Casa de Infantes",
+          "desc": "Casa de infantes de Aranjuez"
+        },
+        "hint": "Se puede usar como un revestimiento natural para decorar rústicamente.",
+        "curiosity": "Actualmente en el interior de este edificio se encuentra situada la oficina de turismo."
+      },
+			{
+        "id": 10,
+        "question": "¿Qué característica arquitectónica destaca en la fachada del Real Convento de San Pascual?",
+        "answers": {
+          "a": "Un rosetón",
+          "b": "Una torre campanario",
+          "c": "Arcos de medio punto",
+          "d": "Columnas corintias"
+        },
+        "results": {
+          "a": false,
+          "b": false,
+          "c": false,
+          "d": true
+        },
+        "img_question": {
+          "url": "assets/Real Convento de San Pascual.jpg",
+          "alt": "Real Convento de San Pascual",
+          "desc": "Real Convento de San Pascual de Aranjuez"
+        },
+        "hint": "Es el más ornamentado de los órdenes arquitectónicos clásicos.",
+        "curiosity": "Su altar mayor está decorado con el cuadro de Anton Raphael Mengs."
+      }
+    ]
+  ]
+}

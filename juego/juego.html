@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.png" />
+    <title>Quiz</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="css/juego.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- header -->
+      <div class="header">
+        <br />
+        <h1>Quiz Arquitectura</h1>
+        <h3>
+          Prueba a ver cuánto sabes sobre la arquitectura de Aranjuez con este
+          pequeño quiz.
+        </h3>
+        <img
+          src="assets/palacio.jpg"
+          alt="Arquitectura de Aranjuez"
+          height="400px"
+        />
+        <h4>Hecho por: Ruth Rama</h4>
+      </div>
+      <!-- main -->
+      <div class="question">
+        <div class="pregunta">
+          <p>¿Qué estilo arquitectónico tiene el Palacio de Medinaceli?</p>
+        </div>
+        <div class="img">
+          <img
+            src="assets/Palacio de Medinaceli en Aranjuez.jpg"
+            alt="Palacio de Medinaceli"
+            height="500px"
+          />
+        </div>
+      </div>
+      <br />
+      <div class="respuestas row text-center">
+        <div class="respuesta ra col-md-3">
+          <input type="radio" name="answers" id="a" value="a" />
+          <label for="a">Neoclásico</label>
+        </div>
+        <div class="respuesta rb col-md-3">
+          <input type="radio" name="answers" id="b" value="b" />
+          <label for="b">Barroco</label>
+        </div>
+        <div class="respuesta rc col-md-3">
+          <input type="radio" name="answers" id="c" value="c" />
+          <label for="c">Clásico</label>
+        </div>
+        <div class="respuesta rd col-md-3">
+          <input type="radio" name="answers" id="d" value="d" />
+          <label for="d">Rococo</label>
+        </div>
+      </div>
+      <br />
+      <div class="curiosidad text-center">
+        <p>Este edificio ocupa toda una manzana.</p>
+      </div>
+      <br />
+      <div class="botones row text-center">
+        <div class="atras col-md-4">
+          <button type="button" id="alante" class="btn btn-danger">
+            Atras
+          </button>
+        </div>
+        <div class="hint col-md-4">
+          <button
+            type="button"
+            id="hint"
+            class="btn btn-danger"
+            onclick="mostrarMensaje()"
+          >
+            Pista
+          </button>
+        </div>
+        <div class="siguiente col-md-4">
+          <button type="button" id="atras" class="btn btn-danger">
+            Siguiente
+          </button>
+        </div>
+      </div>
+      <br />
+    </div>
+    <!-- footer -->
+    <footer class="bg-black py-4 mt-auto">
+      <div class="container px-5">
+        <div
+          class="row align-items-center justify-content-between flex-column flex-sm-row"
+        >
+          <div class="col-auto">
+            <div class="small m-0 copy">&copy; Paseo por Aranjuez 2024</div>
+          </div>
+          <div class="col-auto">
+            <a class="small" href="#">Privacidad</a>
+            <span class="mx-1">&middot;</span>
+            <a class="small" href="contact.html">Contactanos</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/juego.js"></script>
+  </body>
+</html>
